@@ -1,0 +1,27 @@
+{
+  "name": "broadcast-server",
+  "version": "1.0.0",
+  "description": "a simple broadcast server that will allow clients to connect to it, send messages that will be broadcasted to all connected clients.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kavehtr/Broadcast-Server.git"
+  },
+  "author": "kaveh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kavehtr/Broadcast-Server/issues"
+  },
+  "homepage": "https://github.com/kavehtr/Broadcast-Server#readme",
+  "dependencies": {
+    "ws": "^8.18.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.8.3"
+  }
+}
